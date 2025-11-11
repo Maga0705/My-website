@@ -705,3 +705,19 @@ aside a:hover {
   background: rgba(10, 14, 39, 0.95);
   backdrop-filter: blur(10px);
 }
+body, p, li, label, legend, a, strong, span {
+  color: #f2f2f2 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+  text-shadow: 0 0 5px rgba(255,255,255,0.2);
+}
+
+a:hover {
+  color: #4a5fff !important;
+}
+
+.card-custom, .contact-info, .page-header {
+  color: #e6e6e6 !important;
+}
