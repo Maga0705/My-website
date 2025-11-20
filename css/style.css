@@ -75,8 +75,8 @@ h1, h2, h3 {
 
 /* Skill boxen */
 .skill-item, .skill-card {
-  background-color: #16213e;
-  border: 1px solid #0f3460;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   padding: 30px;
   text-align: center;
   margin-bottom: 20px;
@@ -141,3 +141,4 @@ footer {
   background-color: #0f3460;
   margin-right: 5px;
 }
+
