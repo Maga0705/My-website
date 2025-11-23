@@ -19,7 +19,7 @@ body {
   color: #53a8ff !important;
 }
 
-/* Headings */
+/* Headings, h1,h2 en h3 */
 h1, h2, h3 {
   color: #53a8ff;
 }
@@ -155,3 +155,4 @@ footer {
 .card-body i {
   color: #ffffff;
 }
+ /* ik heb hierbij youtube gebruikt en https://htmlcolorcodes.com/ om de kleurtjes te vinden zo dat ze naar mijn smaak gaan pasen/*
