@@ -721,3 +721,53 @@ a:hover {
 .card-custom, .contact-info, .page-header {
   color: #e6e6e6 !important;
 }
+
+ .project-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .project-list li {
+      padding: 8px 0;
+      color: #e0e0e0;
+    }
+    
+    .result-card {
+      background: rgba(10, 14, 39, 0.5);
+      border: 1px solid rgba(74, 95, 255, 0.2);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+    
+    .result-card:hover {
+      border-color: #4a5fff;
+      transform: translateY(-5px);
+    }
+    
+    .result-card h4 {
+      color: #fff;
+      margin: 10px 0 5px;
+    }
+    
+    .result-card p {
+      color: #b0b0b0;
+    }
+    
+    .project-image img {
+      border: 2px solid rgba(74, 95, 255, 0.3);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    .badge {
+      padding: 8px 15px;
+      font-size: 0.85rem;
+    }
+    
+    .alert-info {
+      background: rgba(74, 95, 255, 0.1);
+      border: 1px solid rgba(74, 95, 255, 0.3);
+      color: #e0e0e0;
+    }
