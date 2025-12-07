@@ -120,7 +120,7 @@
       </aside>
     </div>
 
-    <!-- Leaflet Map Section -->
+    <!-- leaflet -->
     <div class="row mt-5">
       <div class="col-12">
         <div class="card-custom">
@@ -139,21 +139,21 @@
   </footer>
 
   <script>
-    // Initialize Leaflet map
+    // Leaflet initialiseren
     document.addEventListener('DOMContentLoaded', function() {
-      // Coordinates for Ellermansstraat 33, Antwerpen
-      const apHogeschool = [51.2194, 4.4024];
+      // coordinaten van mijn
+      const apHogeschool = [51.230019, 4.416199]
       
-      // Create map
+      // map maken
       const map = L.map('map').setView(apHogeschool, 16);
       
-      // Add OpenStreetMap tiles
+      // openstreetmap
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '© OpenStreetMap contributors'
       }).addTo(map);
       
-      // Add marker
+      // Marker
       const marker = L.marker(apHogeschool).addTo(map);
       marker.bindPopup('<strong>AP Hogeschool</strong><br>Ellermansstraat 33<br>Antwerpen, België');
       marker.openPopup();
