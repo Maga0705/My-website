@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer></script>
+    <!-- Custom JS -->
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -42,21 +44,21 @@
   <!-- Pagina Header -->
   <header class="page-header">
     <div class="container">
-      <h1>Portfolio</h1>
       <p class="lead">Mukhammad Abduev</p>
     </div>
   </header>
 
-  <div class="container my-5">
+  <main class="container my-5">
+    <h1>Portfolio</h1>
     <div class="row">
-      <main class="col-md-9">
+      <section class="col-md-9">
         
         <!-- Over Mij -->
         <section>
           <h2>Over Mij</h2>
           <div class="card mt-3">
             <div class="card-body">
-              <h5><i class="bi bi-person-badge me-2"></i>Introductie</h5>
+              <h3><i class="bi bi-person-badge me-2"></i>Introductie</h3>
               <p>Ik ben een student Systeem- en Netwerkbeheer met interesse in cybersecurity. Momenteel volg ik een graduaatsopleiding waarin ik leer over netwerken, systemen en beveiliging.</p>
             </div>
           </div>
@@ -65,7 +67,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
-                  <h5><i class="bi bi-code-square me-2"></i>Wat Ik Doe</h5>
+                  <h3><i class="bi bi-code-square me-2"></i>Wat Ik Doe</h3>
                   <p>Ik werk aan schoolprojecten rond IT en heb ervaring opgedaan via een mini-onderneming. Daarnaast help ik bij IT-vraagstukken.</p>
                 </div>
               </div>
@@ -74,7 +76,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
-                  <h5><i class="bi bi-mortarboard me-2"></i>Studie</h5>
+                  <h3><i class="bi bi-mortarboard me-2"></i>Studie</h3>
                   <p>Graduaatsopleiding SNB</p>
                   <ul>
                     <li>Netwerkconfiguratie</li>
@@ -96,7 +98,7 @@
             <div class="col-md-6">
               <div class="project-card">
                 <i class="bi bi-router" style="font-size: 2rem;"></i>
-                <h5 class="mt-2">ISP Vergelijking - Burger King</h5>
+                <h3 class="mt-2">ISP Vergelijking - Burger King</h3>
                 <p>Netwerkconfiguratie en ISP vergelijking met VoIP en LTE backup.</p>
                 <span class="badge">Netwerken</span>
                 <span class="badge">ISP</span>
@@ -107,7 +109,7 @@
             <div class="col-md-6">
               <div class="project-card">
                 <i class="bi bi-laptop" style="font-size: 2rem;"></i>
-                <h5 class="mt-2">POS Systeem - Biebelhausener Mühle</h5>
+                <h3 class="mt-2">POS Systeem - Biebelhausener Mühle</h3>
                 <p>Setup en configuratie met Bash scripting in Duitsland.</p>
                 <span class="badge">POS</span>
                 <span class="badge">Bash</span>
@@ -118,7 +120,7 @@
             <div class="col-md-6">
               <div class="project-card">
                 <i class="bi bi-globe" style="font-size: 2rem;"></i>
-                <h5 class="mt-2">Portfolio Website</h5>
+                <h3 class="mt-2">Portfolio Website</h3>
                 <p>Persoonlijke portfolio met HTML, CSS en Bootstrap.</p>
                 <span class="badge">HTML/CSS</span>
                 <span class="badge">Bootstrap</span>
@@ -129,7 +131,7 @@
             <div class="col-md-6">
               <div class="project-card">
                 <i class="bi bi-shield-check" style="font-size: 2rem;"></i>
-                <h5 class="mt-2">Netwerk Security Scan</h5>
+                <h3 class="mt-2">Netwerk Security Scan</h3>
                 <p>Schoolproject: beveiligingsscan met Nmap en rapportage.</p>
                 <span class="badge">Cybersecurity</span>
                 <span class="badge">Nmap</span>
@@ -140,7 +142,7 @@
             <div class="col-md-6">
               <div class="project-card">
                 <i class="bi bi-fire" style="font-size: 2rem;"></i>
-                <h5 class="mt-2">Firewall Configuratie</h5>
+                <h3 class="mt-2">Firewall Configuratie</h3>
                 <p>Oefening met pfSense firewall en VLANs.</p>
                 <span class="badge">Netwerken</span>
                 <span class="badge">pfSense</span>
@@ -151,7 +153,7 @@
             <div class="col-md-6">
               <div class="project-card">
                 <i class="bi bi-envelope-exclamation" style="font-size: 2rem;"></i>
-                <h5 class="mt-2">Phishing Awareness</h5>
+                <h3 class="mt-2">Phishing Awareness</h3>
                 <p>Presentatie over phishing aanvallen herkennen.</p>
                 <span class="badge">Cybersecurity</span>
                 <span class="badge">Awareness</span>
@@ -162,7 +164,7 @@
             <div class="col-md-6">
               <div class="project-card">
                 <i class="bi bi-diagram-3" style="font-size: 2rem;"></i>
-                <h5 class="mt-2">Cisco Packet Tracer Lab</h5>
+                <h3 class="mt-2">Cisco Packet Tracer Lab</h3>
                 <p>Netwerk opgebouwd met routers en switches.</p>
                 <span class="badge">Netwerken</span>
                 <span class="badge">Cisco</span>
@@ -175,18 +177,18 @@
           </div>
         </section>
 
-      </main>
+      </section>
 
       <!-- Sidebar -->
       <aside class="col-md-3">
         <div class="contact-info">
-          <h5><i class="bi bi-person-circle me-2"></i>Contact</h5>
+          <h3><i class="bi bi-person-circle me-2"></i>Contact</h3>
           <p>Mukhammad Abduev<br>
             <a href="mailto:s167266@ap.be">s167266@ap.be</a><br>
             Klas: 1SNB_D1a
           </p>
           
-          <h6 class="mt-4">Opleiding</h6>
+          <h4 class="mt-4">Opleiding</h4>
           <p>AP Hogeschool<br>
             Systeem- en Netwerkbeheer
           </p>
@@ -202,12 +204,12 @@
         </div>
       </aside>
     </div>
-  </div>
+  </main>
   
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Mukhammad Abduev - Portfolio</p>
+      <p>&copy; <span id="year">2025</span> Mukhammad Abduev - Portfolio</p>
     </div>
   </footer>
 </body>
